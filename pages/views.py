@@ -7,3 +7,6 @@ def about_me_view(request):
 
 def experience_view(request):
     return render(request, 'pages/experience.html')
+
+def project_view(request):
+    return render(request, 'projects/projects.html')

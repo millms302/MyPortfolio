@@ -3,6 +3,6 @@ from pages import views
 
 urlpatterns = [
     path('', views.about_me_view, name='about_me'),
-    path('experience/', views.experience_view, name= 'experience.html'),
+    path('experience/', views.experience_view, name='experience'),
 
 ]
