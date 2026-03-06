@@ -30,7 +30,7 @@
                         <a class="nav-link" href="{% url 'projects_list' %}">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -43,17 +43,12 @@
     </main>
 
     <footer>
-        <a href="">
-            <h2>Mike Miller</h2>
         </a>
         <div class="card">
-            <div class="card-header">
-                Featured
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card-body text-center">
+                <h5 class="text-center">Michael S Miller</h5>
+                <p class="text-center">millms302@gmail.com</p>
+                <a href="{% url 'contact' %}" class="btn btn-primary">Contact</a>
             </div>
         </div>
     </footer>

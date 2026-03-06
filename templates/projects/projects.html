@@ -11,7 +11,7 @@ Projects
     <h2>Projects: Click the image to go to the github repository.</h2>
     <div class="projects-list">
         {% for project in projects_list %}
-            <div class="project-card border center">
+            <div class="project-card border text-center">
                 <a href="{{ project.repository }}" target="_blank">
                     <img width="400" src="{{ project.image.url }}" alt="">
                 </a>
@@ -20,7 +20,7 @@ Projects
                 <p>{{project.description}}</p>
                 <!--Skills-->
                 {% for skill in project.skills.all %}
-                    <div class="skills-container center">
+                    <div class="skills-container text-center">
                         <label for="" class="text-label">
                             {{ skill.name }}
                         </label>
